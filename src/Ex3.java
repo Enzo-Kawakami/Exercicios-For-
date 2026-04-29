@@ -7,7 +7,7 @@ public class Ex3 {
         int numero = sc.nextInt();
         int soma = 0;
 
-        numero = Math.abs(numero);
+        numero = numero;
         while (numero > 0) {
             soma += numero % 10;
             numero /= 10;
